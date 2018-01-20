@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<%- locals.include('partials/favicons.ejs') %>
+<meta name="description" content="<%- locals.blocks.description %>">
+<meta name="author" content="<%- locals.blocks.author %>">
+<meta name="keywords" content="<%- locals.blocks.keywords %>">
+<meta name="robots" content="noindex, follow">
+<meta name="revisit-after" content="5 month">
+<meta name="image" content="<%- locals.blocks.image %>">
+<meta name="og:description" content="<%- locals.blocks.description %>">
+<meta name="og:image" content="<%- locals.blocks.image %>">
+<meta name="og:site_name" content="<%- locals.blocks.site_name %>">
+<meta name="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="<%- locals.blocks.description %>">
+<meta name="twitter:image" content="<%- locals.blocks.image %>">
+<meta name="twitter:site" content="<%- locals.blocks.site_name %>">
+<meta name="twitter:creator" content="<%- locals.blocks.author %>">
+<meta name="twitter:title" content="<%- locals.blocks.title %>">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#eb9e66">
+<title><%- locals.blocks.title %></title>
+<%- locals.include('partials/critical.ejs') %>
+</head>
+<body>
+  <%- locals.body %>
+</body>
+</html>

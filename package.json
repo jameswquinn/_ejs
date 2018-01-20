@@ -1,0 +1,29 @@
+{
+  "name": "ejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "critical": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-ejs": "^3.1.1",
+    "gulp-ejs-monster": "^3.1.2",
+    "gulp-favicons": "^2.2.7",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-html-prettify": "0.0.1",
+    "gulp-local-screenshots": "^2.2.0",
+    "gulp-rsvg": "^1.0.2",
+    "gulp-seo": "^1.0.2",
+    "gulp-svg2png": "^2.0.2",
+    "gulp-uncss": "^1.0.6",
+    "gulp-util": "^3.0.8",
+    "js-beautify": "^1.7.5",
+    "run-sequence": "^2.2.1"
+  }
+}
